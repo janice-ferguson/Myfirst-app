@@ -1,0 +1,26 @@
+{
+  "name": "first-app",
+  "version": "1.0.0",
+  "description": "My first application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janice-ferguson/First-App.git"
+  },
+  "author": "Janice Ferguson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janice-ferguson/First-App/issues"
+  },
+  "homepage": "https://github.com/janice-ferguson/First-App#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "css": "^2.2.4",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.1",
+    "pug": "^2.0.3"
+  }
+}

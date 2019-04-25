@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h1 #{CompoundNumber}
+    ul.list-group
+        each material, i in materials
+            li.list-group-item
+                a(href="/materials/"+material._id)=material.CompoundNumber

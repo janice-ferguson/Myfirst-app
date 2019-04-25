@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    //h1= material.title
+    h5 Material Description:  #{material.Description}
+    h6= material.CompoundNumber
+    hr
+    a.btn.btn-default(href='/materials/edit/'+material._id) Edit
+    a.btn.btn-danger.delete-material(href="#",data-id=material._id) Delete
+    

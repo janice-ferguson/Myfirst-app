@@ -1,0 +1,27 @@
+extends layout
+
+block content
+    h1 #{title}
+    form(method= 'POST', action='/materials/add')
+        #form-group
+            label Compound Number:
+            input.form-control(name="CompoundNumber", type='text')
+        #form-group
+            label Cost:
+            input.form-control(name="Cost", type= 'text')
+        #form-group
+            label Description:
+            input.form-control(name="Description", type='text')
+        #form-group
+            label Specific Gravity:
+            input.form-control(name="SpecificGravity", type= 'text')
+        //- #form-group
+        //-     label General Description:
+        //-     input.form-control(name="generaldescription", type='text')
+        #form-group
+            label Color:
+            input.form-control(name="Color", type='text')
+        br
+        br
+        input.btn.btn-primary(type='submit',value='Submit')
+        
